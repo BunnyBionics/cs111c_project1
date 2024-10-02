@@ -39,17 +39,17 @@ public class ProjectADriver {
 			 * Note: I recommend commenting out some of these method calls so you can focus
 			 * on testing one method at a time.
 			 */
-//			runEmptyListTests();
-//			runAddToBackTests();
-//			runClearTests();
-//			runAddToFrontTests();
+			runEmptyListTests();
+			runAddToBackTests();
+			runClearTests();
+			runAddToFrontTests();
 			runContainsTests();
 			runIndexOfTests();
 			runLastIndexOfTests();
-//			runRemovesTests();
-//			runMixOfAddsRemovesTests();
-//			runGetEntryTests();
-			runTestsWithStrings();	
+			runRemovesTests();
+			runMixOfAddsRemovesTests();
+			runGetEntryTests();
+			runTestsWithStrings();
 		}
 		
 		System.out.println("\n\n-----------------------------TESTING COMPLETE-----------------------------");
