@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class ProjectADriver {
 	
-	private static boolean testingPartOne = true, testingExtraCredit = false;
+	private static boolean testingPartOne = false, testingExtraCredit = false;
 	
 	private static FrontBackCappedList<Integer> list;
 
@@ -39,16 +39,16 @@ public class ProjectADriver {
 			 * Note: I recommend commenting out some of these method calls so you can focus
 			 * on testing one method at a time.
 			 */
-			runEmptyListTests();
-			runAddToBackTests();
-			runClearTests();
-			runAddToFrontTests();
+//			runEmptyListTests();
+//			runAddToBackTests();
+//			runClearTests();
+//			runAddToFrontTests();
 			runContainsTests();
 			runIndexOfTests();
 			runLastIndexOfTests();
-			runRemovesTests();
-			runMixOfAddsRemovesTests();
-			runGetEntryTests();
+//			runRemovesTests();
+//			runMixOfAddsRemovesTests();
+//			runGetEntryTests();
 			runTestsWithStrings();	
 		}
 		
