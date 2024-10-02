@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class ArrayFrontBackCappedList<T> implements FrontBackCappedList<T> {
 
     private T[] list;

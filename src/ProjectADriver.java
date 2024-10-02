@@ -15,7 +15,7 @@ public class ProjectADriver {
 			 * b) Un-comment the line below (list = ...) to test with the extra credit. 
 			 * c) Un-comment the line noted in the runTestsWithStrings method.
 			*/
-			// list = new ListFrontBackCappedList<Integer>(10);
+			 list = new ListFrontBackCappedList<Integer>(10);
 			System.out.println("-----------------------------DRIVER BEING RUN WITH EXTRA CREDIT CLASS-----------------------------");
 			if(list instanceof ArrayFrontBackCappedList) {
 				System.err.println("Error! You must un-comment the line at the beginning of main that lets you run the driver with the extra credit class.");
@@ -339,7 +339,7 @@ public class ProjectADriver {
 		if(testingExtraCredit) {
 			
 			/* UN-COMMENT THIS TO RUN THE EXTRA CREDIT */
-			//wordList = new ListFrontBackCappedList<String>(20);
+			wordList = new ListFrontBackCappedList<String>(20);
 			if(wordList instanceof ArrayFrontBackCappedList) {
 				System.out.flush();	
 				System.err.println("Error! You must un-comment a line in the runTestsWithStrings method to fully test the extra credit.");
